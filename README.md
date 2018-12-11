@@ -18,6 +18,9 @@ Query and retrieve the Planck Constant using the most updated International Syst
     
     julia> MathPhysicalConstants.SI.PlanckConstantH
     6.62607015e-34
+    
+    julia> big(MathPhysicalConstants.SI.PlanckConstantH)
+    6.62606895999999960651234296395253273824527450725424150396117674176417443843193e-34
 
 Now access Earth's gravitational acceleration in MKS units.
 
