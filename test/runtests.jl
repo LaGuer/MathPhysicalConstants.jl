@@ -1,8 +1,5 @@
 using MathPhysicalConstants
 
-using Test
-
-using MathPhysicalConstants
 
 @testset begin
     @test MathPhysicalConstants.MKS.PlancksConstantH == 6.62606896e-34
