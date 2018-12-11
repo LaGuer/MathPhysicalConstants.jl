@@ -23,11 +23,6 @@ Or in CGS units.
 
     julia> MathPhysicalConstants.CGS.GravAccel
     980.665
-
-also available in Imperial units.
-
-    julia> MathPhysicalConstants.Imperial.GravAccel
-    32.174049
     
 last but not least in International System of Units
     
