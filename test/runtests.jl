@@ -1,4 +1,4 @@
-using MathPhysicalConstants, Unitful
+using MathPhysicalConstants
 
 using Test
 
