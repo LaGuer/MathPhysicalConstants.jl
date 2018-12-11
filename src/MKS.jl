@@ -8,10 +8,6 @@ module MKS
     Parsec = 3.08567758135e16;                              # m 
     GravAccel = 9.80665e0;                                  # m / s^2 
     ElectronVolt = 1.602176487e-19;                         # kg m^2 / s^2 
-    MassElectron = 9.10938188e-31;                          # kg
-    MassMuon = 1.88353109e-28;                              # kg 
-    MassProton = 1.67262158e-27;                            # kg 
-    MassNeutron = 1.67492716e-27;                           # kg 
     Rydberg = 2.17987196968e-18;                            # kg m^2 / s^2 
     Boltzmann = 1.3806504e-23;                              # kg m^2 / K s^2 
     MolarGas = 8.314472e0;                                  # kg m^2 / K ol s^2 
