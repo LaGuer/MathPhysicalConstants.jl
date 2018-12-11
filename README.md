@@ -21,8 +21,13 @@ Query and retrieve the Planck Constant using the most updated International Syst
     
     julia> big(MathPhysicalConstants.SI.PlanckConstantH)
     6.62606895999999960651234296395253273824527450725424150396117674176417443843193e-34
+    
+Now let's have a look at ƛe ≡ ħ/mec the reduced electron radius
+    
+    julia> big(MathPhysicalConstants.SI.PlanckConstantH)/(big(MathPhysicalConstants.SI.MassElectron)*big(MathPhysicalConstants.SI.SpeedOfLight))
+    2.42631027637202010003687587191357482878156204816578736228540160944126721996979e-12
 
-Now access Earth's gravitational acceleration in MKS units.
+Let's switch to Earth's gravitational acceleration in MKS units.
 
     julia> PhysicalConstants.MKS.GravAccel
     9.80665
