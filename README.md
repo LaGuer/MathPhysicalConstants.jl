@@ -13,6 +13,11 @@ The package can be installed directly from its [github repository](https://githu
 Usage is pretty straightforward. Start off by loading the package.
 
     julia> using MathPhysicalConstants
+    
+Query and retrieve the Planck Constant using the most updated International System of Units (SI)    
+    
+    julia> MathPhysicalConstants.SI.PlanckConstantH
+    6.62607015e-34
 
 Now access Earth's gravitational acceleration in MKS units.
 
@@ -24,7 +29,7 @@ Or in CGS units.
     julia> MathPhysicalConstants.CGS.GravAccel
     980.665
     
-last but not least in International System of Units
+last but not least in International System of Units (SI)
     
     julia> MathPhysicalConstants.SI.GravAccel
     9.80665
