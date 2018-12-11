@@ -1,8 +1,8 @@
 module SI 
     SpeedOfLight = 2.99792458e8 ;                           # m / s 299 792 458 m/s
     GravitationalConstant = 6.673e-8;                       # cm^3 / g s^2 
-    PlancksConstantH = 6.62607015e-34;                      # J . s  
-    PlancksConstantHbar = 1.05457162825e-34;                # J . s 
+    PlanckConstantH = 6.62607015e-34;                       # J . s  
+    PlanckConstantHbar = 1.05457162825e-34;                 # J . s 
     AstronomicalUnit = 1.49597870691e11;                    # m 
     LightYear = 9.46053620707e15;                           # m 
     Parsec = 3.08567758135e16;                              # m 
