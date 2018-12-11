@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/8dkx5tiag5pap2jq/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/physicalconstants-jl/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/h2223a8hus4hxam3/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/mathphysicalconstants-jl/branch/master)
 
 # MathPhysicalConstants
 
