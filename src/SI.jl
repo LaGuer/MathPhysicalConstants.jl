@@ -1,4 +1,4 @@
-module IS 
+module SI 
     SpeedOfLight = 2.99792458e8 ;                           # m / s 299 792 458 m/s
     GravitationalConstant = 6.673e-8;                       # cm^3 / g s^2 
     PlancksConstantH = 6.62607015e-34;                      # J . s  
