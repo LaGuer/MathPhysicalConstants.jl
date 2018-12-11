@@ -4,6 +4,7 @@ using Base.Test
 @testset begin
     @test MathPhysicalConstants.MKS.PlancksConstantH == 6.62606896e-34
     @test MathPhysicalConstants.SI.PlanckConstantH == 6.62606896e-34
+    @test MathPhysicalConstants.SI.SanchezElectrConstant == 137.035999139
     #\\\ @test iszero(measurement(MathPhysicalConstants.IS.SanchezElectrConstant) - measurement(MathPhysicalConstants.IS.SanchezElectrConstant))
     # \\\ @test setprecision(BigFloat, 768) do; precision(ustrip(big(c))) end == 768
     #\\\@test measurement(h) === measurement(h)
