@@ -105,6 +105,6 @@ module SI
     CmbTemperature = 2.725820831                            # K
     UniverseSanchezMass = 8.7936e52                         # kg
     SanchezElectrConstant = 137.035999139e0                 # dimensionless
-    $\alpha$ = 7.2973525664e10-3                           # Fine Structure Constant
-    $\alpha^{-1}$ = 137.035999139e0                        # Inverse fine-structure Constant
+    α = 7.2973525664e10-3                                   # Fine Structure Constant
+    α^-1 = 137.035999139e0                                  # Inverse fine-structure Constant
 end
