@@ -106,5 +106,7 @@ module SI
     UniverseSanchezMass = 8.7936e52                         # kg
     SanchezElectrConstant = 137.035999139e0                 # dimensionless
     α = 7.2973525664e10-3                                   # Fine Structure Constant
-    #α^-1 = 137.035999139e0                                  # Inverse fine-structure Constant
+    ε0 =  8.854187817e10-12                                 # F m-1 electric constant
+    μ0 =  12.566370614e10-7                                 # N A-2     magnetic constant 
+    #α^-1 = 137.035999139e0                                 # Inverse fine-structure Constant
 end
