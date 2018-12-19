@@ -16,10 +16,11 @@ git:
 notifications:
   email: false
 before_install:
-#  - cd ..
-  - pwd
-  - git clone https://github.com/LaGuer/MathPhysicalConstants.jl.git
-#  - cd IJulia.jl
+  - cd ..
+  - export JL_PKG=MathPhysicalConstants
+  - git fetch --unshallow
+  - git clone https://github.com/LaGuer/MathPhysicalConstants.jl.git MathPhysicalConstants.jl
+  - cd MathPhysicalConstants.jl
   - if [ ${TRAVIS_OS_NAME} == "osx" ]; then brew update >/dev/null 2>&1; fi
 script:
   - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
