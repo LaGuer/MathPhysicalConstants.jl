@@ -27,7 +27,7 @@ before_install:
 script:
   - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
 #  - julia -e 'Pkg.clone("https://github.com/LaGuer/MathPhysicalConstants.jl"); Pkg.build("MathPhysicalConstants")'
-  - julia -e 'Pkg.build("MathPhysicalConstants")'
-  - julia -e 'Pkg.test("MathPhysicalConstants"; coverage=false)'
+#  - julia -e 'Pkg.build("MathPhysicalConstants")'
+#  - julia -e 'Pkg.test("MathPhysicalConstants"; coverage=false)'
 #after_success:
 #  - julia -e 'cd(Pkg.dir("MathPhysicalConstants")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())';
