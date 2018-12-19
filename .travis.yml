@@ -18,8 +18,10 @@ notifications:
 before_install:
   - cd ..
   - export JL_PKG=MathPhysicalConstants
-  - git clone https://github.com/LaGuer/MathPhysicalConstants.jl.git MathPhysicalConstants.jl
+  - ls
   - cd MathPhysicalConstants.jl
+#  - git clone https://github.com/LaGuer/MathPhysicalConstants.jl.git MathPhysicalConstants.jl
+  - pwd
   - if [ ${TRAVIS_OS_NAME} == "osx" ]; then brew update >/dev/null 2>&1; fi
 script:
   - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
