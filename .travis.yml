@@ -7,9 +7,10 @@ julia:
   - 0.7
   - 1.0
   - nightly
-#matrix:
-#  allow_failures:
-#- julia_version: latest
+matrix:
+  allowed_failures:
+    - julia: nightly
+    - julia: 1.0
 # Work around a Travis bug
 git:
   depth: 999999
@@ -25,7 +26,7 @@ before_install:
   - if [ ${TRAVIS_OS_NAME} == "osx" ]; then brew update >/dev/null 2>&1; fi
 script:
   - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
-  - julia -e 'Pkg.clone(pwd()); Pkg.build("MathPhysicalConstants")'
+  - julia -e 'Pkg.clone("https://github.com/LaGuer/MathPhysicalConstants.jl"); Pkg.build("MathPhysicalConstants")'
   - julia -e 'Pkg.test("MathPhysicalConstants"; coverage=true)'
 #after_success:
 #  - julia -e 'cd(Pkg.dir("MathPhysicalConstants")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())';
