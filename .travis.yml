@@ -9,7 +9,7 @@ notifications:
   email: false
 before_install:
   - cd ..
-  - git clone https://github.com/LaGuer/MathPhysicalConstants.jl.jl.git MathPhysicalConstants.jl
+  - git clone https://github.com/LaGuer/MathPhysicalConstants.jl.git
   - cd MathPhysicalConstants.jl
   - if [ ${TRAVIS_OS_NAME} == "osx" ]; then brew update >/dev/null 2>&1; fi
 script:
