@@ -1,7 +1,6 @@
 using MathPhysicalConstants
 using Base.Test
 using Test
-include("../src/RunTests.jl")
 
 @testset begin
     @test MathPhysicalConstants.MKS.PlancksConstantH == 6.62606896e-34
