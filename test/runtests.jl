@@ -1,3 +1,3 @@
-using Test
+using Base.Test
 include("../src/RunTests.jl")
 
