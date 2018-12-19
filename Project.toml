@@ -1,6 +1,7 @@
 desc = "Mathematical Physical Constants."
 keywords = ["math", "physical", "constant", "codata"]
 name = "MathPhysicalConstants"
+uuid = "8941a404-0388-11e9-375f-1b24f9d95042"
 repo = "https://github.com/LaGuer/MathPhysicalConstants.jl.git"
 author = "La Guer"
 license = "MIT"
