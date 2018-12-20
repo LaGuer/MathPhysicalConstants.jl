@@ -72,9 +72,9 @@ employ this package in your research work.
 
 [pkgeval-link]: http://pkg.julialang.org/?pkg=MathPhysicalConstants
 
-[pkg-0.5-img]: http://pkg.julialang.org/badges/MathPhysicalConstants.5.svg
+[pkg-0.5-img]: http://pkg.julialang.org/badges/MathPhysicalConstants.0.5.svg
 [pkg-0.5-url]: http://pkg.julialang.org/detail/MathPhysicalConstants.html
-[pkg-0.6-img]: http://pkg.julialang.org/badges/MathPhysicalConstants.6.svg
+[pkg-0.6-img]: http://pkg.julialang.org/badges/MathPhysicalConstants.0.6.svg
 [pkg-0.6-url]: http://pkg.julialang.org/detail/MathPhysicalConstants.html
 
 [travis-img]: https://travis-ci.org/LaGuer/MathPhysicalConstants.jl.svg?branch=master
