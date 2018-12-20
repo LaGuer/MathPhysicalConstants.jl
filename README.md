@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/LaGuer/mathphysicalconstants.jl.svg?branch=master)](https://travis-ci.org/LaGuer/mathphysicalconstants.jl)
+[![Build Status](https://api.travis-ci.org/LaGuer/mathphysicalconstants.jl.svg)](https://travis-ci.org/LaGuer/mathphysicalconstants.jl)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/h2223a8hus4hxam3/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/mathphysicalconstants-jl/branch/master)
 
