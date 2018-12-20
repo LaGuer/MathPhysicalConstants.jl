@@ -16,6 +16,10 @@ git:
   depth: 999999
 notifications:
   email: false
+sudo: false
+#addons:
+#    apt_packages:
+#        - gfortran
 before_install:
   - cd ..
   - export JL_PKG=MathPhysicalConstants
@@ -30,4 +34,10 @@ script:
 #  - julia -e 'Pkg.build("MathPhysicalConstants")'
 #  - julia -e 'Pkg.test("MathPhysicalConstants"; coverage=false)'
 after_success:
+  - echo $TRAVIS_JULIA_VERSION
   - julia -e 'cd(Pkg.dir("MathPhysicalConstants")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())';
+
+
+after_success:
+
+    - julia -e 'Pkg.add("Coverage"); cd(Pkg.dir("Ipopt")); using Coverage; Coveralls.submit(process_folder())'
