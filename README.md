@@ -60,7 +60,7 @@ License
 The `MathPhysicalConstants.jl` package is licensed under the MIT "Expat" License.  The
 original author is La Guer.
 
-Please, cite the paper LaGuer 2018 (http://arxiv.org/abs/0000.00000) if you
+Please, cite this paper (http://vixra.org/abs/1811.0146v8) if you
 employ this package in your research work.
 
 
