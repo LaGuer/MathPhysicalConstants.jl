@@ -6,9 +6,9 @@
 | [![][docs-latest-img]][docs-latest-url] | [![][pkg-0.0.6-img]][pkg-0.0.6-url]       | [![Build Status][appvey-img]][appvey-url] | [![][codecov-img]][codecov-url] |
 
 
-[![Build Status](https://api.travis-ci.org/LaGuer/mathphysicalconstants.jl.svg)](https://travis-ci.org/LaGuer/mathphysicalconstants.jl)
+[![Build Status](https://api.travis-ci.org/LaGuer/MathPhysicalConstants.jl.svg)](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/h2223a8hus4hxam3/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/mathphysicalconstants-jl/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/h2223a8hus4hxam3/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/MathPhysicalConstants-jl/branch/master)
 
 
 MathPhysicalConstants is a Julia package which has the values of a range of mathematical and physical constants updated with most recent available dataset from BIPM in 2018. Currently [MKS](https://en.wikipedia.org/wiki/MKS_system_of_units) and [CGS](https://en.wikipedia.org/wiki/Centimetre%E2%80%93gram%E2%80%93second_system_of_units) units and International System of Units [SI](https://www1.bipm.org/utils/common/pdf/CGPM-2018/26th-CGPM-Resolutions.pdf) are supported.
