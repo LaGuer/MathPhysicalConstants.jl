@@ -20,6 +20,10 @@ sudo: false
 #addons:
 #    apt_packages:
 #        - gfortran
+env:
+  matrix:
+    - JULIA_PhysicalConstant_BUILD_SOURCE=true
+    - JULIA_PhysicalConstant_BUILD_SOURCE=false
 before_install:
   - cd ..
   - export JL_PKG=MathPhysicalConstants
@@ -35,4 +39,5 @@ script:
 #  - julia -e 'Pkg.test("MathPhysicalConstants"; coverage=false)'
 after_success:
   - echo $TRAVIS_JULIA_VERSION
+  - julia -e 'import Pkg; Pkg.add("Coverage"); using Coverage; Coveralls.submit(process_folder()); Codecov.submit(process_folder())'
   - julia -e 'cd(Pkg.dir("MathPhysicalConstants")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())';
