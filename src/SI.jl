@@ -102,11 +102,14 @@ module SI
     Gauss = 1e-4;                                           # kg / A s^2 
     ThomsonCrossSection = 6.65245893699e-29;                # m^2
     KotovCosmicPeriodicity = 9600.061e0;                    # s
-    CmbTemperature = 2.725820831                            # K
-    UniverseSanchezMass = 8.7936e52                         # kg
-    SanchezElectrConstant = 137.035999139e0                 # dimensionless
-    α = 7.2973525664e10-3                                   # Fine Structure Constant
-    ε0 =  8.854187817e10-12                                 # F m-1 electric constant
-    μ0 =  12.566370614e10-7                                 # N A-2     magnetic constant 
+    CmbTemperature = 2.725820831;                           # K
+    UniverseSanchezMass = 8.7936e52;                        # kg
+    SanchezElectrConstant = 137.035999139e0;                # dimensionless Sanchez Electric Constant
+    α = 7.2973525664e10-3;                                  # Fine Structure Constant
+    ε0 =  8.854187817e10-12;                                # F m-1 electric constant
+    μ0 =  12.566370614e10-7;                                # N A-2     magnetic constant 
+    γ = 0.5772156649015328606065120900824024310421593359399e0 # Euler–Mascheroni constant
+    e = 2.7182818284590450907955982984276488423347473144531e0 # Euler
+    a = 137.03599913815450976591038346353016906084731063214e0 # Sanchez Electric Constant
     #α^-1 = 137.035999139e0                                 # Inverse fine-structure Constant
 end
