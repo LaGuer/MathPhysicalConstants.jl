@@ -21,8 +21,8 @@ module SI
     Rydberg = 2.17987196968e-18;                            # kg m^2 / s^2 
     k = 1.380649e-23;                                       # kg⋅m2⋅K−1⋅s−2
     Boltzmann = 1.380649e-23;                               # J / K                  [kg cm^2 / K s^2]
-    NA = 6.02214076e23;                                     # mol−1  reciprocal mole (mol−1)
-    LuminousEfficacyKcd = 683e0                             # cd⋅sr⋅s3⋅kg−1⋅m−2
+    AvogadroNumberNA = 6.02214076e23;                       # mol−1  reciprocal mole (mol−1)
+    LuminousEfficacyKcd = 683e0;                            # cd⋅sr⋅s3⋅kg−1⋅m−2
     Minute = 6e1;                                           # s 
     Hour = 3.6e3;                                           # s 
     Day = 8.64e4;                                           # s 
@@ -109,7 +109,7 @@ module SI
     Gauss = 1e-4;                                           # kg / A s^2 
     ThomsonCrossSection = 6.65245893699e-29;                # m^2
     KotovCosmicPeriodicity = 9600.061e0;                    # s
-    CmbTemperature = 2.725820831e0;                           # K
+    CmbTemperature = 2.725820831e0;                         # K
     UniverseSanchezMass = 8.7936e52;                        # kg
     SanchezElectrConstant = 137.035999139e0;                # dimensionless Sanchez Electric Constant
     α = 7.2973525664e-3;                                    # Fine Structure Constant
