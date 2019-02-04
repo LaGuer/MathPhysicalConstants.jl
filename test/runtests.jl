@@ -12,9 +12,6 @@ end
 
 @testset "Comparisons and Tests" begin
     # isapprox is overloaded only for tests.  Make sure it works as expected.
-    @test 5 ± 1 ≉ 5 ± 2
-    @test (nextfloat(5.0) ± nextfloat(1.0)) ≈ 5 ± 1
-    @test 5.1 ± 1 ≉ 5 ± 1
     @test measurement(big"0.75", 0.01) == 3//4 ± 1//100
     @test measurement(big(π)) ≠ π
     @test ℯ ≠ measurement(Float32(ℯ))
