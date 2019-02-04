@@ -115,8 +115,8 @@ module SI
     α = 7.2973525664e-3;                                    # Fine Structure Constant
     ε0 =  8.854187817e-12;                                  # F m-1 electric constant
     μ0 =  12.566370614e-7;                                  # N A-2     magnetic constant 
-    γ = 0.5772156649015328606065120900824024310421593359399e0; # Euler–Mascheroni constant
-    e = 2.7182818284590450907955982984276488423347473144531e0; # Euler
-    a = 137.03599913815450976591038346353016906084731063214e0; # Sanchez Electric Constant
+    γ = 0.5772156649015328606065120900824024310421593359e0; # Euler–Mascheroni constant
+    e = 2.7182818284590450907955982984276488423343144531e0; # Euler
+    a = 137.035999139e0;                                    # Sanchez Electric Constant
     #α^-1 = 137.035999139e0                                 # Inverse fine-structure Constant
 end
