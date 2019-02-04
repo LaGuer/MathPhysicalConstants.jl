@@ -1,5 +1,5 @@
 using MathPhysicalConstants, Measurements, SpecialFunctions, QuadGK, Calculus
-using Test, LinearAlgebra
+using Test
 
 import Base: isapprox
 import Measurements: value, uncertainty
