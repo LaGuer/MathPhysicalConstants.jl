@@ -3,7 +3,8 @@ module SI
     ElementaryCharge = 1.602176634e-19;                     #  coulomb (C). or A⋅s
     c = 299792458e0;                                        # m⋅s−1
     SpeedOfLight = 2.99792458e8;                            # m / s 299 792 458 m/s
-    GravitationalConstant = 6.673e-8;                       # cm^3 / g s^2 
+    GravitationalConstant = 6.67408e-11;                    # m^3 / kg^-1 s^-2 or m^3 kg^-1 s^-2
+    SanchezGravitationalConstant = 6.675453818e-11;         # m^3 / kg^-1 s^-2 or m^3 kg^-1 s^-2
     h = 6.62607015e-34;                                     # kg⋅m2⋅s−1
     PlanckConstantH = 6.62607015e-34;                       # J . s  
     PlanckConstantHbar = 1.05457162825e-34;                 # J . s 
@@ -109,12 +110,13 @@ module SI
     Gauss = 1e-4;                                           # kg / A s^2 
     ThomsonCrossSection = 6.65245893699e-29;                # m^2
     KotovCosmicPeriodicity = 9600.061e0;                    # s
-    CmbTemperature = 2.725820831e0;                         # K
+    CmbTemperature = 2.7255;
+    SanchezCmbTemperature = 2.725820831e0;                  # K
     UniverseSanchezMass = 8.7936e52;                        # kg
     SanchezElectrConstant = 137.035999139e0;                # dimensionless Sanchez Electric Constant
     α = 7.2973525664e-3;                                    # Fine Structure Constant
-    ε0 =  8.854187817e-12;                                  # F m-1 electric constant
-    μ0 =  12.566370614e-7;                                  # N A-2     magnetic constant 
+    ε0 = 8.854187817e-12;                                   # F m-1 electric constant
+    μ0 = 12.566370614e-7;                                   # N A-2     magnetic constant 
     γ = 0.5772156649015328606065120900824024310421593359e0; # Euler–Mascheroni constant
     e = 2.7182818284590450907955982984276488423343144531e0; # Euler
     a = 137.035999139e0;                                    # Sanchez Electric Constant
