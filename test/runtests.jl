@@ -1,4 +1,8 @@
-using MathPhysicalConstants
+using MathPhysicalConstants, Measurements, SpecialFunctions, QuadGK, Calculus
+using Test, LinearAlgebra, Statistics
+
+import Base: isapprox
+import Measurements: value, uncertainty
 
 if VERSION < v"0.7.0-DEV.2005"
     using Base.Test
