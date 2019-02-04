@@ -13,7 +13,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/LaGuer/MathPhysicalConstants.jl/badge.svg)](https://coveralls.io/github/LaGuer/MathPhysicalConstants.jl)
 
 
-MathPhysicalConstants is a Julia package which has the values of a range of mathematical and physical constants updated with most recent available dataset from BIPM in 2018. Currently [MKS](https://en.wikipedia.org/wiki/MKS_system_of_units) and [CGS](https://en.wikipedia.org/wiki/Centimetre%E2%80%93gram%E2%80%93second_system_of_units) units and [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units). Updated CODATA 2017 and redefinition of SI base units following [ISU, BIPM, CGPM, CIPM](https://www1.bipm.org/utils/common/pdf/CGPM-2018/26th-CGPM-Resolutions.pdf) approved resolutions is scheduled to come into force on 20 May 2019.
+MathPhysicalConstants is a Julia package which has the values of a range of mathematical and physical constants updated with most recent available dataset from BIPM in 2018. Currently [MKS](https://en.wikipedia.org/wiki/MKS_system_of_units) and [CGS](https://en.wikipedia.org/wiki/Centimetre%E2%80%93gram%E2%80%93second_system_of_units) units and [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units). Updated CODATA 2017 and redefinition of SI base units following [ISU, BIPM, CGPM, CIPM](https://www1.bipm.org/utils/common/pdf/CGPM-2018/26th-CGPM-Resolutions.pdf) approved resolutions and scheduled to come into force on 20 May 2019.
 
 ## Installation
 
