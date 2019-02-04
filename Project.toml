@@ -5,7 +5,7 @@ uuid = "8941a404-0388-11e9-375f-1b24f9d95042"
 repo = "https://github.com/LaGuer/MathPhysicalConstants.jl.git"
 author = "La Guer"
 license = "MIT"
-version = "v0.0.5"
+version = "v0.0.6"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
