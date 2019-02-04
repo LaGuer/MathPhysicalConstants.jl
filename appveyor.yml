@@ -31,7 +31,7 @@ install:
 
 build_script:
   - echo "%JL_BUILD_SCRIPT%"
-  - C:\julia\bin\julia -e "using Pkg; Pkg.add(MathPhysicalConstants); Pkg.build(Measurements)"
+  - C:\julia\bin\julia -e "using Pkg; Pkg.build(Measurements)"
   - C:\julia\bin\julia -e "%JL_BUILD_SCRIPT%"
   - C:\julia\bin\julia -e "using InteractiveUtils; versioninfo();
     using UUIDs;
