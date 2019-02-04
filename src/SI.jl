@@ -1,6 +1,6 @@
 module SI 
     ΔνCs = 9192631770e0;                                    #  Δν(133Cs)hfs=9192631770e0 s−1
-    ElementaryCharge = 1.602176634e−19;                     #  coulomb (C). or A⋅s
+    ElementaryCharge = 1.602176634e-19;                     #  coulomb (C). or A⋅s
     c = 299792458e0;                                        # m⋅s−1
     SpeedOfLight = 2.99792458e8;                            # m / s 299 792 458 m/s
     GravitationalConstant = 6.673e-8;                       # cm^3 / g s^2 
