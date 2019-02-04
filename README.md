@@ -5,7 +5,7 @@
 | [![][docs-stable-img]][docs-stable-url] | [![][pkg-0.0.5-img]][pkg-0.0.5-url]       | [![Build Status][travis-img]][travis-url] | [![][coveral-img]][coveral-url] |
 | [![][docs-latest-img]][docs-latest-url] | [![][pkg-0.0.6-img]][pkg-0.0.6-url]       | [![Build Status][appvey-img]][appvey-url] | [![][codecov-img]][codecov-url] |
 
-[![Package Evaluator](https://juliaobserver.com/packages/MathPhysicalConstants)(https://juliaobserver.com/packages/MathPhysicalConstants)
+[![Package Evaluator](https://juliaobserver.com/packages/MathPhysicalConstants)](https://juliaobserver.com/packages/MathPhysicalConstants)
 
 [![Build Status](https://api.travis-ci.org/LaGuer/MathPhysicalConstants.jl.svg)](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl)
 
