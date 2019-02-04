@@ -4,7 +4,7 @@ module SI
     c = 299792458e0;                                        # m⋅s−1
     SpeedOfLight = 2.99792458e8;                            # m / s 299 792 458 m/s
     GravitationalConstant = 6.673e-8;                       # cm^3 / g s^2 
-    h = 6.62607015e−34;                                     # kg⋅m2⋅s−1
+    h = 6.62607015e-34;                                     # kg⋅m2⋅s−1
     PlanckConstantH = 6.62607015e-34;                       # J . s  
     PlanckConstantHbar = 1.05457162825e-34;                 # J . s 
     AstronomicalUnit = 1.49597870691e11;                    # m 
