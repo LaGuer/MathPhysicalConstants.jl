@@ -31,6 +31,7 @@ install:
 
 build_script:
   - echo "%JL_BUILD_SCRIPT%"
+  - C:\julia\bin\julia -e "using Pkg; Pkg.build(MathPhysicalConstants); Pkg.build(Measurements)"
   - C:\julia\bin\julia -e "%JL_BUILD_SCRIPT%"
   - C:\julia\bin\julia -e "using InteractiveUtils; versioninfo();
     using UUIDs;
@@ -38,7 +39,7 @@ build_script:
     after = replace(before, \"uuid = \\\"44cfe95a-1eb2-52ea-b672-e2afdf69b78f\\\"\" =>
                             \"uuid = \\\"4d836010-47a6-11e8-12b2-0918962bae33\\\"\");
     write(\"Project.toml\", after);
-    import Pkg; Pkg.build(MathPhysicalConstants); Pkg.build(Measurements)"
+    import Pkg; Pkg.build()"
 
 test_script:
   - echo "%JL_TEST_SCRIPT%"
