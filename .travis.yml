@@ -26,7 +26,7 @@ env:
     - JULIA_MathPhysicalConstants_BUILD_SOURCE=true
 #    - JULIA_MathPhysicalConstants_BUILD_SOURCE=false
 before_install:
-  - cd ..
+  - pwd
   - export JL_PKG=MathPhysicalConstants
 #  - ls
 #  - cd MathPhysicalConstants.jl
