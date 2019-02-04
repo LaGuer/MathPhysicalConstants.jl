@@ -15,13 +15,6 @@ end
     @test 5 ± 1 ≉ 5 ± 2
     @test (nextfloat(5.0) ± nextfloat(1.0)) ≈ 5 ± 1
     @test 5.1 ± 1 ≉ 5 ± 1
-    @test z == x ≠ y
-    @test x == x
-    @test -2 < w <= x < y < 5
-    @test big(1) < big(x) < big(4) <= big(y) <= big(5)
-    @test -5//3 < w <= -1//2 <= x < 11//3 < y <= 24//6
-    @test 3 == 3 ± 0 ≠ x == 3 ± 0.1
-    @test 4 ± 0.2 == y ≠ 4 == 4 ± 0
     @test measurement(big"0.75", 0.01) == 3//4 ± 1//100
     @test measurement(big(π)) ≠ π
     @test ℯ ≠ measurement(Float32(ℯ))
