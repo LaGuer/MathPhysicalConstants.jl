@@ -1,6 +1,10 @@
 module SI 
-    SpeedOfLight = 2.99792458e8 ;                           # m / s 299 792 458 m/s
+    ΔνCs = 9192631770e0                                     #  Δν(133Cs)hfs=9192631770e0 s−1
+    ElementaryCharge = 1.602176634e−19                      #  coulomb (C). or A⋅s
+    c = 299792458e0;                                        # m⋅s−1
+    SpeedOfLight = 2.99792458e8;                            # m / s 299 792 458 m/s
     GravitationalConstant = 6.673e-8;                       # cm^3 / g s^2 
+    h = 6.62607015e−34;                                     # kg⋅m2⋅s−1
     PlanckConstantH = 6.62607015e-34;                       # J . s  
     PlanckConstantHbar = 1.05457162825e-34;                 # J . s 
     AstronomicalUnit = 1.49597870691e11;                    # m 
@@ -15,7 +19,10 @@ module SI
     MassTau = 3.16773502e-27;                               # kg
     MassHydrogen = 1.6737236e-27;                           # kg
     Rydberg = 2.17987196968e-18;                            # kg m^2 / s^2 
+    k = 1.380649e-23;                                       # kg⋅m2⋅K−1⋅s−2
     Boltzmann = 1.380649e-23;                               # J / K                  [kg cm^2 / K s^2]
+    NA = 6.02214076e23;                                     # mol−1  reciprocal mole (mol−1)
+    LuminousEfficacyKcd = 683e0                             # cd⋅sr⋅s3⋅kg−1⋅m−2
     Minute = 6e1;                                           # s 
     Hour = 3.6e3;                                           # s 
     Day = 8.64e4;                                           # s 
