@@ -1,4 +1,6 @@
 include("mpctest.jl")
+include("RunTests.jl")
+include("../test/runtests.jl")
 """
 Runs all files whose names start with "Test" in the current directory
 or any directories below it
