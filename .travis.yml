@@ -1,13 +1,13 @@
 # Documentation:  http://docs.travis-ci.com/user/languages/julia/
 language: julia
 os:
-  - linux
+#  - linux
   - osx
 julia:
-  - 0.7
-  - 1.0
+#  - 0.7
+#  - 1.0
   - 1.1
-  - nightly
+#  - nightly
 matrix:
   allowed_failures:
     - julia: nightly
