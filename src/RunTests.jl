@@ -9,14 +9,10 @@ function runtests(path=".")
     for (root,dirs,files) in walkdir(path)
         for dir in dirs
             runtests(joinpath(root,dir))
-        end
-        for file in files
-            if startswith(file,"Test")
-                println(joinpath(root,file))
-                include(joinpath(root,file))
-            end
-        end
-    end
+    for file in files
+        if startswith(file,"Test")
+            println(joinpath(root,file))
+            include(joinpath(root,file))
 end
 
 runtests()
