@@ -8,10 +8,6 @@ makedocs(
         "Introduction" => "index.md",
         "Installation" => "installation.md",
         "Usage"        => "usage.md",
-        "Examples"     => "examples.md",
-        "Performance"  => "performance.md",
-        "Development"  => "todo.md",
-        "Appendix"     => "appendix.md",
     ]
 )
 
