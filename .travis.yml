@@ -51,6 +51,6 @@ jobs:
       script:
         - julia --color=yes -e 'using Pkg; Pkg.build()'
         - julia --check-bounds=yes --color=yes -e 'using Pkg; Pkg.test(coverage=true)'
-        - julia --project=docs/ -e 'using Pkg; Pkg.instantiate()'
-        - julia --project=docs/ docs/make.jl
+        - julia --project=@ -e 'using Pkg; Pkg.instantiate()'
+        - julia --project=@ docs/make.jl
       after_success: skip
