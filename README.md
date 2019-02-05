@@ -5,6 +5,13 @@
 | [![][docs-stable-img]][docs-stable-url] | [![][pkg-0.0.5-img]][pkg-0.0.5-url]       | [![Build Status][travis-img]][travis-url] | [![][coveral-img]][coveral-url] |
 | [![][docs-latest-img]][docs-latest-url] | [![][pkg-0.0.6-img]][pkg-0.0.6-url]       | [![Build Status][appvey-img]][appvey-url] | [![][codecov-img]][codecov-url] |
 
+| System | Test Status |
+| :----- | :---------: |
+| Linux/macOS | [![Travis](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl.svg?branch=master)](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl) |
+| Windows | [![AppVeyor](https://ci.appveyor.com/api/projects/status/h2223a8hus4hxam3/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/MathPhysicalConstants-jl/branch/master) |
+| FreeBSD | [![Cirrus](https://api.cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl.svg)](https://cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl) |
+
+
 [![Julia Observer](https://juliaobserver.com/packages/MathPhysicalConstants)](https://juliaobserver.com/packages/MathPhysicalConstants)
 
 [![Package Evaluator](http://pkg.julialang.org/badges/MathPhysicalConstants_0.6.svg)](http://pkg.julialang.org/detail/MathPhysicalConstants)
