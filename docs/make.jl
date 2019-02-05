@@ -2,7 +2,7 @@ using Documenter, MathPhysicalConstants
 
 makedocs(
     modules = [MathPhysicalConstants],
-    format = :html,
+    format = Documenter.HTML(),
     sitename = "MathPhysicalConstants",
     pages    = Any[
         "Introduction" => "index.md",
