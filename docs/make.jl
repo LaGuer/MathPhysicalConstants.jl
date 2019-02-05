@@ -8,6 +8,7 @@ makedocs(
         "Introduction" => "index.md",
         "Installation" => "installation.md",
         "Usage"        => "usage.md",
+        "api"          => "api.md",
     ]
 )
 
