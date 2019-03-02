@@ -1,6 +1,6 @@
 module SI 
     ΔνCs = 9192631770e0;                                    #  Δν(133Cs)hfs=9192631770e0 s−1
-    λ = 2.4263102367e-12;                                   # m
+    λe = 2.4263102367e-12;                                   # Electron Compton wavelength in m 
     ƛe = 3.861592046068738e-13;                             # ƛe ≡ ħ/m_ec Reduced Electron Compton wavelength 
     ElementaryCharge = 1.602176634e-19;                     #  coulomb (C). or A⋅s
     c = 299792458e0;                                        # m⋅s−1
