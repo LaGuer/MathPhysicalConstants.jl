@@ -46,9 +46,9 @@ Query and retrieve the Planck Constant using the most updated International Syst
     julia> big(MathPhysicalConstants.SI.PlanckConstantH)
     6.62606895999999960651234296395253273824527450725424150396117674176417443843193e-34
     
-Now let's have a look at ƛe ≡ ħ/m_e.c the reduced Compton electron wavelength radius formula. Try it with BigFloat and Measurement
+Now let's have a look at [https://en.wikipedia.org/wiki/Compton_wavelength](https://en.wikipedia.org/wiki/Compton_wavelength) ƛe ≡ ħ/m_e.c the reduced Compton electron wavelength radius formula. Try it with BigFloat and Measurement
     
-    julia> big(MathPhysicalConstants.SI.PlanckConstantH)/(big(MathPhysicalConstants.SI.MassElectron)*big(MathPhysicalConstants.SI.SpeedOfLight))
+    julia> big(MathPhysicalConstants.SI.PlanckConstantHbar)/(big(MathPhysicalConstants.SI.MassElectron)*big(MathPhysicalConstants.SI.SpeedOfLight))
     2.42631027637202010003687587191357482878156204816578736228540160944126721996979e-12
 
 Let's switch to Earth's gravitational acceleration in MKS units.
