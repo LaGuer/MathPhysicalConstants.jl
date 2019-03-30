@@ -94,7 +94,7 @@ Constant List
     | `n`     |Neutron-electron mass ratio          |    m_n/m_e               | dimensionless  | 1838.683659        | `m_e`           |
     | `m_e`   |electron mass                        | -                        | M              |9.10938356(11)e-31  | `kg`            |
     | `μ'`    |Muon electron mass ratio CODATA2014  | -                        | dimensionless  |206.7682826(41)     | `m_e`           |
-    "| `μ`     |Muon mass F.M.SANCHEZ  (Sz)          | -                        | dimensionless  |206.7682869         | `m_e`           |
+    | `μ`     |Muon mass F.M.SANCHEZ  (Sz)          | -                        | dimensionless  |206.7682869         | `m_e`           |
     | `f'`    |Strg Nuc Coupling Constant CODATA2014| -                        | dimensionless  |1/0.1181(11)        | `pure number`   |
     | `f`     |Strg Nuc Coupling Constant C.Bizouard|    F^2/2pi(pH)^3/2       | dimensionless  |8.434502892         | `pure number`   |
     | `F'`    |Fermi Constant reduced mass CODAT2014|   E_F / m_ec^2           | dimensionless  |573007.33(25)       | `pure number`   |
@@ -102,7 +102,7 @@ Constant List
     | `d_e`   | electron magnetic moment excess     | -                        | dimensionless  |1.00115965218091(26)| `pure number`   |
     | `θ'`    |CMB Temperature CODATA2014           | -                        | -              |  2.7255(6) K       | `K`             |
     | `θ`     |CMB Temperature F.M.Sanchez          | -                        | -              |  2.725820831 K     | `K`             |
-    | `k_B`   |Boltzman Energy-temperature Convers° | -                        | -              | 1.3806488e10-23    | `J K^-1`        |\n",
+    | `k_B`   |Boltzman Energy-temperature Convers° | -                        | -              | 1.3806488e10-23    | `J K^-1`        |
     | `W`     |Intermed vector boson Red. Mass      | -                        | dimensionless  | 157298(23)         | `pure number`   |
     | `W_s`   |Intermed vector boson Red. Mass Sz   | -                        | dimensionless  | 157340             | `pure number`   |
     | `Z`     |Intermediate vector boson Red. Mass  | -                        | dimensionless  | 178450.0(41)       | `pure number`   |
