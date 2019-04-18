@@ -1,4 +1,9 @@
 module SI 
+
+    TSSGP = exp(841.2869278)                                # 26 sporadic group Product 
+    HFP = exp(674.5210288)                                  # Happy Family product
+    O_M = 80801742479451287588645990496171075700575436800000000 #2^46 · 3^20 · 5^9 · 7^6 · 11^2 · 13^3 · 17 · 19 · 23 · 29 · 31 · 41 · 47 · 59 · 71
+    O_B = 4154781481226426191177580544000000                #2^41 · 3^13 · 5^6 · 7^2 · 11 · 13 · 17 · 19 · 23 · 31 · 47
     ΔνCs = 9192631770e0;                                    #  Δν(133Cs)hfs=9192631770e0 s−1
     λe = 2.4263102367e-12;                                  # Electron Compton wavelength in m 
     ƛe = 3.861592046068738e-13;                             # ƛe ≡ ħ/m_ec Reduced Electron Compton wavelength 
