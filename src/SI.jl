@@ -123,5 +123,6 @@ module SI
     γ = 0.5772156649015328606065120900824024310421593359e0; # Euler–Mascheroni constant
     e = 2.7182818284590450907955982984276488423343144531e0; # Euler
     a = 137.035999139e0;                                    # Sanchez Electric Constant
+    a_G = 1.32613243113089e-69                              # a_G gravitational coupling constant 
     #α^-1 = 137.035999139e0                                 # Inverse fine-structure Constant
 end
