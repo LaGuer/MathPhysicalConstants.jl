@@ -1,4 +1,5 @@
 using MathPhysicalConstants
+using Measurements
 using Base.Test
 using Test
 
@@ -12,7 +13,7 @@ using Test
     #\\\@test measurement(h) === measurement(h)
     #\\\@test iszero(measurement(α) - measurement(α))
     #\\\@test isone(measurement(BigFloat, atm) / measurement(BigFloat, atm))
-    #\\\@test iszero(measurement(BigFloat, ħ) - (measurement(BigFloat, h) / 2big(pi)))
+    @test iszero(measurement(BigFloat, MathPhysicalConstants.SI.PlanckConstantHbar) - (measurement(BigFloat, MathPhysicalConstants.SI.PlanckConstantH) / 2big(pi)))
     #\\\@test isone(measurement(BigFloat, ħ) / (measurement(BigFloat, h) / 2big(pi)))
 end
 
