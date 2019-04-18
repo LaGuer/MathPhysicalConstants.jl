@@ -17,7 +17,7 @@ end
     @test ℯ ≠ measurement(Float32(ℯ))
     @test 3//4 == measurement(Float32(0.75), Float32(0)) ≠ 4//3
     @test MathPhysicalConstants.SI.PlanckConstantHbar*MathPhysicalConstants.SI.c == 3.1615262057012976e-26
-    @test MathPhysicalConstants.SI.PlanckConstantHbar//(MathPhysicalConstants.SI.MassElectron*MathPhysicalConstants.SI.c) == 3.861592046068738e-13
+    @test MathPhysicalConstants.SI.PlanckConstantHbar/(MathPhysicalConstants.SI.MassElectron*MathPhysicalConstants.SI.c) == 3.861592046068738e-13
     @test MathPhysicalConstants.SI.GravitationalConstant^2 == 4.45433438464e-21
     @test MathPhysicalConstants.SI.MassElectron*MathPhysicalConstants.SI.MassProton*MathPhysicalConstants.SI.MassHydrogen == 2.550178071499845e-84
     @test isinteger(-3 ± 0)
