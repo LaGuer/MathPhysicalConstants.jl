@@ -15,7 +15,7 @@
 
 [![Julia Observer](https://juliaobserver.com/packages/MathPhysicalConstants)](https://juliaobserver.com/packages/MathPhysicalConstants)
 
-[![Package Evaluator](http://pkg.julialang.org/badges/MathPhysicalConstants_0.6.svg)](http://pkg.julialang.org/detail/MathPhysicalConstants)
+[![Package Evaluator](http://pkg.julialang.org/badges/MathPhysicalConstants_0.6.svg)](https://pkg.julialang.org/docs/MathPhysicalConstants/5uABA/0.0.5/)
 
 [![Build Status](https://api.travis-ci.org/LaGuer/MathPhysicalConstants.jl.svg)](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl)
 
