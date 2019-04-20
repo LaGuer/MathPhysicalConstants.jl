@@ -121,6 +121,8 @@ original author is La Guer.
 Please, cite this paper (http://vixra.org/abs/1811.0146v8) if you
 employ this package in your research work.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2647701.svg)](https://doi.org/10.5281/zenodo.2647701)
+
 
 [docs-latest-img]: https://img.shields.io/badge/docs-latest-blue.svg
 [docs-latest-url]: https://LaGuer.github.io/MathPhysicalConstants.jl/latest/
