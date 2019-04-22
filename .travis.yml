@@ -53,6 +53,7 @@ jobs:
 #        - julia --check-bounds=yes --color=yes -e 'using Pkg; Pkg.test(coverage=true)'
         - julia --project=@ -e 'using Pkg; Pkg.instantiate()'
         - julia --project=@ -e 'import Pkg; Pkg.add("Documenter")'
+        - julia --project=@ -e 'import Pkg; Pkg.add("Measurements")'
         - julia --project=@ -e 'import Pkg; Pkg.add("MathPhysicalConstants")'
         - julia --project=@ docs/make.jl
       after_success: skip
