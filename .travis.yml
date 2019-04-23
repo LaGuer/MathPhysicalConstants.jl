@@ -7,6 +7,7 @@ julia:
   - 0.7
   - 1.0
   - 1.1
+  - 1.2
   - nightly
 matrix:
   allowed_failures:
@@ -55,5 +56,6 @@ jobs:
         - julia --project=@ -e 'import Pkg; Pkg.add("Documenter")'
         - julia --project=@ -e 'import Pkg; Pkg.add("Measurements")'
         - julia --project=@ -e 'import Pkg; Pkg.add("MathPhysicalConstants")'
-        - julia --project=@ docs/make.jl
+#        - julia --project=@ docs/make.jl
+        - julia --project=docs/ docs/make.jl
       after_success: skip
