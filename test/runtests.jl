@@ -45,7 +45,7 @@ end
 end
 
 @testset "Utils" begin
-    @test c.val === ustrip(float(c))
+    @test c === ustrip(float(c))
     @test_throws ErrorException h.foo
 end
 
