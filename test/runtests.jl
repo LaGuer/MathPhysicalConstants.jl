@@ -73,7 +73,7 @@ end
 
 @testset "Show" begin
     @test repr(c) ==
-        2.99792458e8   
+        "2.99792458e8"   
         
 end
 # using Base.Test
