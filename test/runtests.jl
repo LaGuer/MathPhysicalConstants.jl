@@ -32,7 +32,7 @@ end
     @test isone(one(Measurement))
     @test !isone(1 ± 1)
     @test !isone(0 ± 0)
-    
+end   
 
 @testset "Base" begin
     @test ustrip(big(h)) == big"6.626070040e-34"
