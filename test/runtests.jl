@@ -1,5 +1,5 @@
 using MathPhysicalConstants, Measurements, SpecialFunctions, QuadGK, Calculus, Unitful
-import MathPhysicalConstants.SI: α, O_M, c, e, ε0, h, µ_0, ℯ, PlanckConstantHbar, ƛe
+import MathPhysicalConstants.SI: α, O_M, c, e, ε0, h, µ0, ℯ, PlanckConstantHbar, ƛe
 using Test
 
 import Base: isapprox
@@ -50,7 +50,7 @@ end
 end
 
 @testset "Promotion" begin
-    x = @inferred(inv(μ_0 * c ^ 2))
+    x = @inferred(inv(μ0 * c ^ 2))
     T = promote_type(typeof(ε0), typeof(x))
     u = u"A^2 * kg^-1 * m^-3 * s^4"
     @test promote_type(typeof(α), BigInt) === BigFloat
@@ -66,7 +66,7 @@ end
     @test @inferred(5 + α) ≈ float(α) + 5
     @test @inferred(α + 2.718) ≈ 2.718 + float(α)
     @test @inferred(-3.14 + α) ≈ float(α) - 3.14
-    @test ε0 ≈ @inferred(1 / (μ_0 * c ^ 2))
+    @test ε0 ≈ @inferred(1 / (μ0 * c ^ 2))
     @test @inferred(big(0) + α) == big(α)
     @test @inferred(α * 1.0) == float(α)
 end
