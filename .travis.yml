@@ -59,4 +59,5 @@ jobs:
         - julia --project=@ -e 'import Pkg; Pkg.add("MathPhysicalConstants")'
         - julia --project=@ docs/make.jl
 #        - julia --project=docs/ docs/make.jl
-      after_success: skip
+      after_success:
+        - julia -e 'import Pkg; cd(Pkg.dir("MathPhysicalConstants")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())';
