@@ -1,5 +1,6 @@
 julia 0.7
 Measurements 1.0.2
+Unitful 0.15.0
 Calculus 0.1.5
 Documenter 0.21.1
 SpecialFunctions 0.1.0
