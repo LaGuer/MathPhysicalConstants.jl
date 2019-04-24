@@ -61,7 +61,7 @@ end
 #    @test uconvert(u"cm/s", c) === uconvert(u"cm/s", float(c))
 #end
 @testset "Maths" begin
-    @test α ≈ @inferred(ℯ^2/(4 * pi * ε0 * PlanckConstantHbar * c))
+#    @test α ≈ @inferred(ℯ^2/(4 * pi * ε0 * PlanckConstantHbar * c))
     @test @inferred(α + 2) ≈ 2 + float(α)
     @test @inferred(5 + α) ≈ float(α) + 5
     @test @inferred(α + 2.718) ≈ 2.718 + float(α)
