@@ -4,6 +4,8 @@ Usage
 ```@meta
 DocTestSetup = quote
     using MathPhysicalConstants
+    using Unitful
+    using Measurements
 end
 ```
 
@@ -11,6 +13,8 @@ After installing the package, you can start using it with
 
 ```julia
 using MathPhysicalConstants
+using Unitful
+using Measurements
 ```
 
 The module defines a new `MathPhysicalConstants` data type. `MathPhysicalConstants` objects
