@@ -1,27 +1,17 @@
 # MathPhysicalConstants
 
-| **Documentation**                       | [**Package Evaluator**][pkgeval-link] | **Build Status**                          | **Code Coverage**               |
-|:---------------------------------------:|:-------------------------------------:|:-----------------------------------------:|:-------------------------------:|
-| [![][docs-stable-img]][docs-stable-url] | [![][pkg-0.0.5-img]][pkg-0.0.5-url]       | [![Build Status][travis-img]][travis-url] | [![][coveral-img]][coveral-url] |
-| [![][docs-latest-img]][docs-latest-url] | [![][pkg-0.0.6-img]][pkg-0.0.6-url]       | [![Build Status][appvey-img]][appvey-url] | [![][codecov-img]][codecov-url] |
+| **Documentation**                       | [**Package Evaluator**][pkgeval-link] | **Build Status**                          | **Code Coverage**               | System | Test Status |
+|:---------------------------------------:|:-------------------------------------:|:-----------------------------------------:|:-------------------------------:| :----- | :---------: |
+| [![][docs-stable-img]][docs-stable-url] | [![][pkg-0.0.5-img]][pkg-0.0.5-url]       | [![Build Status][travis-img]][travis-url] | [![][coveral-img]][coveral-url] | Linux/macOS | [![Travis](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl.svg?branch=master)](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl) |
+| [![][docs-latest-img]][docs-latest-url] | [![][pkg-0.0.6-img]][pkg-0.0.6-url]       | [![Build Status][appvey-img]][appvey-url] | [![][codecov-img]][codecov-url] | Windows | [![AppVeyor](https://ci.appveyor.com/api/projects/status/h2223a8hus4hxam3/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/MathPhysicalConstants-jl/branch/master) |
 
-| System | Test Status |
-| :----- | :---------: |
-| Linux/macOS | [![Travis](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl.svg?branch=master)](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl) |
-| Windows | [![AppVeyor](https://ci.appveyor.com/api/projects/status/h2223a8hus4hxam3/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/MathPhysicalConstants-jl/branch/master) |
-| FreeBSD | [![Cirrus](https://api.cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl.svg)](https://cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl) |
+[![Cirrus](https://api.cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl.svg)](https://cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LaGuer/MathPhysicalConstants.jl/master?urlpath=lab/tree/doc/MathPhysicalConstants.ipynb)
 
 [![Julia Observer](https://juliaobserver.com/packages/MathPhysicalConstants)](https://juliaobserver.com/packages/MathPhysicalConstants)
 
 [![Package Evaluator](http://pkg.julialang.org/badges/MathPhysicalConstants_0.6.svg)](https://pkg.julialang.org/docs/MathPhysicalConstants/5uABA/0.0.5/)
-
-[![Build Status](https://api.travis-ci.org/LaGuer/MathPhysicalConstants.jl.svg)](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl)
-
-[![Build status](https://ci.appveyor.com/api/projects/status/h2223a8hus4hxam3/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/MathPhysicalConstants-jl/branch/master)
-
-[![Coverage Status](https://coveralls.io/repos/github/LaGuer/MathPhysicalConstants.jl/badge.svg)](https://coveralls.io/github/LaGuer/MathPhysicalConstants.jl)
 
 
 MathPhysicalConstants is a Julia package which has the values of a range of mathematical and physical constants updated with most recent available dataset from BIPM in 2018. Currently [MKS](https://en.wikipedia.org/wiki/MKS_system_of_units) and [CGS](https://en.wikipedia.org/wiki/Centimetre%E2%80%93gram%E2%80%93second_system_of_units) units and [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units). Updated CODATA 2017 and redefinition of SI base units following [ISU, BIPM, CGPM, CIPM](https://www1.bipm.org/utils/common/pdf/CGPM-2018/26th-CGPM-Resolutions.pdf) approved resolutions and scheduled to come into force on 20 May 2019.
