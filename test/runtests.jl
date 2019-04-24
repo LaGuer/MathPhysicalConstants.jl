@@ -39,7 +39,7 @@ end
     @test setprecision(BigFloat, 768) do; precision(ustrip(big(c))) end == 768
     @test measurement(h) === measurement(h)
     @test iszero(measurement(α) - measurement(α))
-    @test isone(measurement(BigFloat, ƛe) / measurement(BigFloat, ƛe))
+#    @test isone(measurement(BigFloat, ƛe) / measurement(BigFloat, ƛe))
 #    @test iszero(measurement(BigFloat, PlanckConstantHbar) - (measurement(BigFloat, h) / 2big(pi)))
 #    @test isone(measurement(BigFloat, PlanckConstantHbar) / (measurement(BigFloat, h) / 2big(pi)))
 end
