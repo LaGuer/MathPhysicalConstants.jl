@@ -32,7 +32,7 @@ build_script:
   - echo "%JL_BUILD_SCRIPT%"
   - C:\julia\bin\julia -e "%JL_BUILD_SCRIPT%"
   #- C:\julia\bin\julia -e "using Pkg; Pkg.build(Measurements)"
-  - C:\julia\bin\julia -e "using InteractiveUtils; versioninfo();
+  - C:\julia\bin\julia -e "using InteractiveUtils; versioninfo()";
     using UUIDs;
     before = read(\"Project.toml\", String);
     after = replace(before, \"uuid = \\\"44cfe95a-1eb2-52ea-b672-e2afdf69b78f\\\"\" =>
@@ -45,8 +45,12 @@ test_script:
   - C:\julia\bin\julia -e "%JL_TEST_SCRIPT%"
   
 after_test:
+  - C:\julia\bin\julia -e "import Pkg; Pkg.clone("https://github.com/LaGuer/MathPhysicalConstants.jl"); ps=Pkg.PackageSpec(name="Documenter", version="0.21"); Pkg.add(ps); Pkg.pin(ps); include(joinpath("docs", "make.jl"))";
+  - C:\julia\bin\julia -e "import Pkg; Pkg.status(); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())";
+  - C:\julia\bin\julia -e "import Pkg; Pkg.add("Coverage"); using Coverage; Coveralls.submit(process_folder()); Codecov.submit(process_folder())"
+  - C:\julia\bin\julia -e "import Pkg; cd(Pkg.dir("MathPhysicalConstants")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())";
   - C:\julia\bin\julia -e "using Pkg; Pkg.add(\"Coverage\"); using Coverage; Codecov.submit(process_folder())"
-  - C:\julia\bin\julia -e "import Pkg; cd(Pkg.dir("MathPhysicalConstants")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())';
+
 # # Uncomment to support code coverage upload. Should only be enabled for packages
 # # which would have coverage gaps without running on Windows
 # on_success:
