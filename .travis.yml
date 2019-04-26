@@ -22,13 +22,15 @@ sudo: false
 #addons:
 #    apt_packages:
 #        - gfortran
-env:
-  matrix:
-    - JULIA_MathPhysicalConstants_BUILD_SOURCE=true
+#env:
+matrix:
+  allow_failures:
+  - julia: nightly
+#    - JULIA_MathPhysicalConstants_BUILD_SOURCE=true
 #    - JULIA_MathPhysicalConstants_BUILD_SOURCE=false
 before_install:
   - pwd
-  - export JL_PKG=MathPhysicalConstants
+#  - export JL_PKG=MathPhysicalConstants
 #  - ls
 #  - cd MathPhysicalConstants.jl
 #  - git clone https://github.com/LaGuer/MathPhysicalConstants.jl.git MathPhysicalConstants.jl
@@ -41,12 +43,12 @@ script:
 #  - julia -e 'Pkg.test("MathPhysicalConstants"; coverage=false)'
 after_success:
   - echo $TRAVIS_JULIA_VERSION
-#  - julia -e 'import Pkg; Pkg.add("Coverage"); using Coverage; Coveralls.submit(process_folder()); Codecov.submit(process_folder())'
+  - julia -e 'import Pkg; Pkg.add("Coverage"); using Coverage; Coveralls.submit(process_folder()); Codecov.submit(process_folder())'
 #  - julia -e 'cd(Pkg.dir("MathPhysicalConstants")); ps=Pkg.PackageSpec(name="Documenter", version="0.21"); Pkg.add(ps); Pkg.pin(ps); include(joinpath("docs", "make.jl"))'
 #  - julia -e 'cd(Pkg.dir("MathPhysicalConstants")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())'
   - julia -e 'import Pkg; Pkg.clone("https://github.com/LaGuer/MathPhysicalConstants.jl"); ps=Pkg.PackageSpec(name="Documenter", version="0.21"); Pkg.add(ps); Pkg.pin(ps); include(joinpath("docs", "make.jl"))'
   - julia -e 'import Pkg; Pkg.status(); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())'
-  - julia -e 'import Pkg; Pkg.add("Coverage"); using Coverage; Coveralls.submit(process_folder()); Codecov.submit(process_folder())'
+#  - julia -e 'import Pkg; Pkg.add("Coverage"); using Coverage; Coveralls.submit(process_folder()); Codecov.submit(process_folder())'
 jobs:
   include:
     - stage: "Documentation"
