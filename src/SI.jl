@@ -70,7 +70,7 @@ module SI
     UkTon = 1.0160469088e3;                                 # kg 
     TroyOunce = 3.1103475e-2;                               # kg 
     Carat = 2e-4;                                           # kg 
-    UnifiedAtomicMass = 1.660538782e-27;                    # kg 
+    UnifiedAtomicMass = 1.660539040e-27;                    # kg per u, Da or AMU [See Dalton] 
     GramForce = 9.80665e-3;                                 # kg m / s^2 
     PoundForce = 4.44822161526e0;                           # kg m / s^2 
     KilopoundForce = 4.44822161526e3;                       # kg m / s^2 
