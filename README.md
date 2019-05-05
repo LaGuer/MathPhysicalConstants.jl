@@ -1,11 +1,12 @@
 ### `MathPhysicalConstants`
 
-| **OS**                                  |  **Doc and Supported Version**                   | **Build Status**                          | **Code Coverage**               |
-|:---------------------------------------:|:------------------------------------------------:|:-----------------------------------------:|:-------------------------------:|
-| Linux                                   |[![][docs-latest-img]][docs-latest-url]Julia > 0.6| [![Build Status][travis-img]][travis-url] | [![][codacy-img]][codacy-url] |
-| OSX                                     |[![][docs-latest-img]][docs-latest-url]Julia > 0.6| [![Build Status][travis-img]][travis-url] | [![][codecov-img]][codecov-url] |
-| Windows                                 |[![][docs-latest-img]][docs-latest-url]Julia > 0.6| [![Build Status][appvey-img]][appvey-url] | [![][coveral-img]][coveral-url] |
-| BSD                                     |[![][docs-latest-img]][docs-latest-url]Julia > 0.6| [![Build Status][cirrus-img]][cirrus-url] | [![][codecov-img]][codecov-url] |
+| **OS**                                  |  **Documentation**                    | **Build Status**                          | **Code Coverage**               |
+|:---------------------------------------:|:-------------------------------------:|:-----------------------------------------:|:-------------------------------:|
+| Linux                                   |[![][docs-latest-img]][docs-latest-url]| [![Build Status][travis-img]][travis-url] | [![][codacy-img]][codacy-url]   |
+| OSX                                     |[![][docs-latest-img]][docs-latest-url]| [![Build Status][travis-img]][travis-url] | [![][codecov-img]][codecov-url] |
+| Windows                                 |[![][docs-latest-img]][docs-latest-url]| [![Build Status][appvey-img]][appvey-url] | [![][coveral-img]][coveral-url] |
+| BSD                                     |[![][docs-latest-img]][docs-latest-url]| [![Build Status][cirrus-img]][cirrus-url] | [![][codecov-img]][codecov-url] |
+
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LaGuer/MathPhysicalConstants.jl/master?urlpath=lab/tree/doc/MathPhysicalConstants.ipynb)
 [![nbviewer](https://img.shields.io/badge/view%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/github/LaGuer/PrimeFinders/blob/master/PrimeFinders.ipynb)
