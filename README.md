@@ -1,29 +1,27 @@
-# MathPhysicalConstants
+### `MathPhysicalConstants`
 
-| **Documentation**                       | [**Package Evaluator**][pkgeval-link] | **Build Status**                          | **Code Coverage**               | System | Test Status |
-|:---------------------------------------:|:-------------------------------------:|:-----------------------------------------:|:-------------------------------:| :----- | :---------: |
-| [![][docs-stable-img]][docs-stable-url] | [![][pkg-0.0.5-img]][pkg-0.0.5-url]       | [![Build Status][travis-img]][travis-url] | [![][coveral-img]][coveral-url] | Linux/macOS | [![Travis](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl.svg?branch=master)](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl) |
-| [![][docs-latest-img]][docs-latest-url] | [![][pkg-0.0.6-img]][pkg-0.0.6-url]       | [![Build Status][appvey-img]][appvey-url] | [![][codecov-img]][codecov-url] | Windows | [![AppVeyor](https://ci.appveyor.com/api/projects/status/h2223a8hus4hxam3/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/MathPhysicalConstants-jl/branch/master) |
-
-[![Cirrus](https://api.cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl.svg)](https://cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl)
+| **OS**                                  |  **Doc and Supported Version**                   | **Build Status**                          | **Code Coverage**               |
+|:---------------------------------------:|:------------------------------------------------:|:-----------------------------------------:|:-------------------------------:|
+| Linux                                   |[![][docs-latest-img]][docs-latest-url]Julia > 0.6| [![Build Status][travis-img]][travis-url] | [![][codacy-img]][codacy-url] |
+| OSX                                     |[![][docs-latest-img]][docs-latest-url]Julia > 0.6| [![Build Status][travis-img]][travis-url] | [![][codecov-img]][codecov-url] |
+| Windows                                 |[![][docs-latest-img]][docs-latest-url]Julia > 0.6| [![Build Status][appvey-img]][appvey-url] | [![][coveral-img]][coveral-url] |
+| BSD                                     |[![][docs-latest-img]][docs-latest-url]Julia > 0.6| [![Build Status][cirrus-img]][cirrus-url] | [![][codecov-img]][codecov-url] |
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LaGuer/MathPhysicalConstants.jl/master?urlpath=lab/tree/doc/MathPhysicalConstants.ipynb)
+[![nbviewer](https://img.shields.io/badge/view%20on-nbviewer-brightgreen.svg)](https://nbviewer.jupyter.org/github/LaGuer/PrimeFinders/blob/master/PrimeFinders.ipynb)
 
-[![Julia Observer](https://juliaobserver.com/packages/MathPhysicalConstants)](https://juliaobserver.com/packages/MathPhysicalConstants)
-
-[![Package Evaluator](http://pkg.julialang.org/badges/MathPhysicalConstants_0.6.svg)](https://pkg.julialang.org/docs/MathPhysicalConstants/5uABA/0.0.5/)
-
+## `Purpose`
 
 MathPhysicalConstants is a Julia package which has the values of a range of mathematical and physical constants updated with most recent available dataset from BIPM in 2018. Currently [MKS](https://en.wikipedia.org/wiki/MKS_system_of_units) and [CGS](https://en.wikipedia.org/wiki/Centimetre%E2%80%93gram%E2%80%93second_system_of_units) units and [International System of Units](https://en.wikipedia.org/wiki/International_System_of_Units). Updated CODATA 2017 and redefinition of SI base units following [ISU, BIPM, CGPM, CIPM](https://www1.bipm.org/utils/common/pdf/CGPM-2018/26th-CGPM-Resolutions.pdf) approved resolutions and scheduled to come into force on 20 May 2019.
 See [https://en.wikipedia.org/wiki/2019_redefinition_of_SI_base_units](https://en.wikipedia.org/wiki/2019_redefinition_of_SI_base_units)
 
-## Installation
+## `Installation`
 
 The package can be installed directly from its [github repository](https://github.com/LaGuer/MathPhysicalConstants.jl):
 
     Pkg.clone("https://github.com/LaGuer/MathPhysicalConstants.jl")
 
-## Usage
+## `Usage`
 
 Usage is pretty straightforward. Start off by loading the package.
 
@@ -59,7 +57,7 @@ last but not least in International System of Units (SI)
     
 
     
-SI Constant List
+## `SI Constant List`
 -------------
 
 | Symbol  | Name                                  | Formula                  | Dimension      | Value              | Unit            |
@@ -103,7 +101,7 @@ SI Constant List
 | `Π±`    |`Intermediate vector boson Red. Mass`  | -                        | dimensionless  | 273.13203(68)      | `pure number`   |
 | `Π0`    |`Intermediate vector boson Red. Mass`  | -                        | dimensionless  | 264.1426(18)       | `pure number`   |
 
-License
+## `License`
 -------
 
 The `MathPhysicalConstants.jl` package is licensed under the MIT "Expat" License.  The
@@ -139,3 +137,15 @@ employ this package in your research work.
 
 [codecov-img]: https://codecov.io/gh/LaGuer/MathPhysicalConstants.jl/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/LaGuer/MathPhysicalConstants.jl
+
+[codacy-img]: https://api.codacy.com/project/badge/Grade/d09dc8fca5df4abd96d4ba0758f2554c
+[codacy-url]: https://www.codacy.com/app/LaGuer/MathPhysicalConstants.jl?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LaGuer/MathPhysicalConstants.jl&amp;utm_campaign=Badge_Grade
+
+[cirrus-img]: https://api.cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl.svg
+[cirrus-url]: https://cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl)
+
+[julobs-img]: https://juliaobserver.com/packages/MathPhysicalConstants
+[julobs-url]: https://juliaobserver.com/packages/MathPhysicalConstants
+
+[pkgeval-img]: http://pkg.julialang.org/badges/MathPhysicalConstants_0.6.svg
+[pkgeval-url]: https://pkg.julialang.org/docs/MathPhysicalConstants/5uABA/0.0.5/
