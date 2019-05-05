@@ -2,11 +2,11 @@
 language: julia
 os:
   - linux
-#  - osx
+  - osx
 julia:
   - 0.7
 #  - 1.0
-#  - 1.1
+  - 1.1
 #  - 1.2
 #  - nightly
 matrix:
@@ -67,13 +67,16 @@ jobs:
         - julia --project=@ -e 'import Pkg; Pkg.build()'
         - julia --project=@ -e 'using Pkg; Pkg.instantiate()'
         - julia --project=@ docs/make.jl
-#        - julia --project=docs/ docs/make.jl
+
       after_success:
         - julia -e 'import Pkg; Pkg.add("Measurements")'
         - julia -e 'import Pkg; Pkg.add("Unitful")'
         - julia -e 'using Pkg; Pkg.instantiate()'
         - julia --check-bounds=yes --color=yes -e 'using Pkg; Pkg.test(coverage=true)'
         - julia --code-coverage test/runtests.jl
+        - julia --project=@ docs/ -e 'using Pkg; Pkg.instantiate();
+                                    Pkg.develop(PackageSpec(path=pwd()))'
+        - julia --project=@ docs/ docs/make.jl
         - julia -e 'using Pkg; Pkg.add("Coverage"); using Coverage; Codecov.submit(process_folder())'
         - julia -e 'import Pkg; cd(Pkg.dir("MathPhysicalConstants")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())'
         - julia -e 'import Pkg; cd(Pkg.dir("MathPhysicalConstants")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder())'
