@@ -2,6 +2,7 @@
 
 | **Documentation**                       | [**Package Evaluator**][pkgeval-link] | **Build Status**                          | **Code Coverage**               | System | Test Status |
 |:---------------------------------------:|:-------------------------------------:|:-----------------------------------------:|:-------------------------------:| :----- | :---------: |
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1799888d68d64f859b2726578999166b)](https://app.codacy.com/app/LaGuer/MathPhysicalConstants.jl?utm_source=github.com&utm_medium=referral&utm_content=LaGuer/MathPhysicalConstants.jl&utm_campaign=Badge_Grade_Settings)
 | [![][docs-stable-img]][docs-stable-url] | [![][pkg-0.0.5-img]][pkg-0.0.5-url]       | [![Build Status][travis-img]][travis-url] | [![][coveral-img]][coveral-url] | Linux/macOS | [![Travis](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl.svg?branch=master)](https://travis-ci.org/LaGuer/MathPhysicalConstants.jl) |
 | [![][docs-latest-img]][docs-latest-url] | [![][pkg-0.0.6-img]][pkg-0.0.6-url]       | [![Build Status][appvey-img]][appvey-url] | [![][codecov-img]][codecov-url] | Windows | [![AppVeyor](https://ci.appveyor.com/api/projects/status/h2223a8hus4hxam3/branch/master?svg=true)](https://ci.appveyor.com/project/LaGuer/MathPhysicalConstants-jl/branch/master) |
 
