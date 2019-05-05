@@ -142,7 +142,7 @@ employ this package in your research work.
 [codacy-url]: https://www.codacy.com/app/LaGuer/MathPhysicalConstants.jl?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LaGuer/MathPhysicalConstants.jl&amp;utm_campaign=Badge_Grade
 
 [cirrus-img]: https://api.cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl.svg
-[cirrus-url]: https://cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl)
+[cirrus-url]: https://cirrus-ci.com/github/LaGuer/MathPhysicalConstants.jl
 
 [julobs-img]: https://juliaobserver.com/packages/MathPhysicalConstants
 [julobs-url]: https://juliaobserver.com/packages/MathPhysicalConstants
