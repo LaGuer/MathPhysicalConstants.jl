@@ -108,7 +108,7 @@ last but not least in International System of Units (SI)
 The `MathPhysicalConstants.jl` package is licensed under the MIT "Expat" License.  The
 original author is La Guer.
 
-Please, cite this paper (http://vixra.org/abs/1811.0146v8) if you
+Please, cite this paper (http://vixra.org/abs/1811.0146v8.pdf) if you
 employ this package in your research work.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2647701.svg)](https://doi.org/10.5281/zenodo.2647701)
