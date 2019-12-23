@@ -28,6 +28,7 @@ module SI
     MassTau = 3.16773502e-27;                               # kg
     MassHydrogen = 1.6737236e-27;                           # kg
     Rydberg = 2.17987196968e-18;                            # kg m^2 / s^2 
+    R_K = 25812.80745e0;                                    # Von Klitzing Constant in Omega
     k = 1.380649e-23;                                       # kg⋅m2⋅K−1⋅s−2
     Boltzmann = 1.380649e-23;                               # J / K                  [kg cm^2 / K s^2]
     AvogadroNumberNA = 6.02214076e23;                       # mol−1  reciprocal mole (mol−1)
