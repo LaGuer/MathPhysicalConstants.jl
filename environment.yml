@@ -1,9 +1,9 @@
 dependencies:
   - matplotlib
   - numpy
+  - sympy
   - pandas
   - pip
   - pytest
-  - pycall
   - pip:
       - julia
