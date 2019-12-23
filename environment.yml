@@ -1,0 +1,9 @@
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pytest
+  - pycall
+  - pip:
+      - julia
