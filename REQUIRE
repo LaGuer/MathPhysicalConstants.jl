@@ -4,6 +4,6 @@ Unitful 0.15.0
 Calculus 0.5.1
 Documenter 0.21.1
 SpecialFunctions 0.8.0
-QuadGK 1.0.0
-RecipesBase 0.2.0
+QuadGK 2.3.1
+RecipesBase 0.7.0
 Requires
