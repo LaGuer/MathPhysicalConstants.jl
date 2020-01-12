@@ -21,6 +21,10 @@ end
     @test MathPhysicalConstants.SI.PlanckConstantHbar/(MathPhysicalConstants.SI.MassElectron*MathPhysicalConstants.SI.c) == 3.861592046068738e-13
     @test MathPhysicalConstants.SI.GravitationalConstant^2 == 4.45433438464e-21
     @test MathPhysicalConstants.SI.MassElectron*MathPhysicalConstants.SI.MassProton*MathPhysicalConstants.SI.MassHydrogen == 2.550178071499845e-84
+    @test (2*MathPhysicalConstants.SI.PlanckConstantHbar^2)/(MathPhysicalConstants.SI.SanchezGravitationalConstant*MathPhysicalConstants.SI.MassElectron*MathPhysicalConstants.SI.MassProton*MathPhysicalConstants.SI.MassNeutron) == 1.3056254088279212e26
+    @test MathPhysicalConstants.SI.KotovCosmicPeriodicity == 9600.061
+    @test MathPhysicalConstants.SI.SanchezGravitationalConstant == 6.675453818e-11
+    @test MathPhysicalConstants.SI.O_M == 80801742479451287588645990496171075700575436800000000
     @test isinteger(-3 ± 0)
     @test !isinteger(3 ± 1)
     @test !isinteger(pi ± 0)
