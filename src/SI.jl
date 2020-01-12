@@ -16,7 +16,8 @@ module SI
     PlanckConstantH = 6.62607015e-34;                       # J . s  
     PlanckConstantHbar = 1.05457162825e-34;                 # J . s 
     AstronomicalUnit = 1.49597870691e11;                    # m 
-    LightYear = 9.46053620707e15;                           # m 
+    LightYear = 9.46053620707e15;                           # m
+    GigaLightYear = 9.46053620707e15*10e8;                  # m 
     Parsec = 3.08567758135e16;                              # m 
     Jansky = 10e-26;                                        # W.m^−2.Hz^−1  \text{ Jansky}=10^{-26}\text{ Watts meters}^{-2}\text{ Hertz}^{-1}
     GravAccel = 9.80665e0;                                  # m / s^2 
