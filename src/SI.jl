@@ -6,15 +6,15 @@ module SI
     O_B = 4154781481226426191177580544000000                #2^41 · 3^13 · 5^6 · 7^2 · 11 · 13 · 17 · 19 · 23 · 31 · 47
     ΔνCs = 9192631770e0;                                    #  Δν(133Cs)hfs=9192631770e0 s−1
     λe = 2.4263102367e-12;                                  # Electron Compton wavelength in m 
-    ƛe = 3.8615926796e-13;                                  # ƛe ≡ ħ/m_ec Reduced Electron Compton wavelength 
+    ƛe = 3.861592046068738e-13;                             # ƛe ≡ ħ/m_ec Reduced Electron Compton wavelength 
     ElementaryCharge = 1.602176634e-19;                     #  coulomb (C). or A⋅s
     c = 299792458e0;                                        # m⋅s−1
     SpeedOfLight = 2.99792458e8;                            # m / s 299 792 458 m/s
-    GravitationalConstant = 6.67430e-11;                    # m^3 / kg^-1 s^-2 or m^3 kg^-1 s^-2
+    GravitationalConstant = 6.67408e-11;                    # m^3 / kg^-1 s^-2 or m^3 kg^-1 s^-2
     SanchezGravitationalConstant = 6.675453818e-11;         # m^3 / kg^-1 s^-2 or m^3 kg^-1 s^-2
     h = 6.62607015e-34;                                     # kg⋅m2⋅s−1
     PlanckConstantH = 6.62607015e-34;                       # J . s  
-    PlanckConstantHbar = 1.054571817e-34;                   # J . s 
+    PlanckConstantHbar = 1.05457162825e-34;                 # J . s 
     AstronomicalUnit = 1.49597870691e11;                    # m 
     LightYear = 9.46053620707e15;                           # m
     GigaLightYear = 9.46053620707e15*10e8;                  # m 
