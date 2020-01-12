@@ -36,14 +36,24 @@ Query and retrieve the Planck Constant using the most updated International Syst
     julia> big(MathPhysicalConstants.SI.PlanckConstantH)
     6.62606895999999960651234296395253273824527450725424150396117674176417443843193e-34
     
-Now let's have a look at [https://en.wikipedia.org/wiki/Compton_wavelength](https://en.wikipedia.org/wiki/Compton_wavelength) ƛe ≡ ħ/m_e.c the reduced Compton electron wavelength radius formula. Try it with BigFloat and Measurement
+Let's have a look at [https://en.wikipedia.org/wiki/Compton_wavelength](https://en.wikipedia.org/wiki/Compton_wavelength) ƛe ≡ ħ/m_e.c the reduced Compton electron wavelength radius formula. Try it with BigFloat and Measurement
     
     julia> big(MathPhysicalConstants.SI.PlanckConstantHbar)/(big(MathPhysicalConstants.SI.MassElectron)*big(MathPhysicalConstants.SI.SpeedOfLight))
     2.42631027637202010003687587191357482878156204816578736228540160944126721996979e-12
-
+    
+Now let's have a look at [https://en.m.wikipedia.org/wiki/Age_of_the_universe](https://en.m.wikipedia.org/wiki/Age_of_the_universe) determined with the following equation: R_3mn = 2ħ^2/(G.m_e.m_p.m_n)  
+    
+    julia> R3mn=(2*SI.PlanckConstantHbar^2)/(SI.SanchezGravitationalConstant*SI.MassElectron*SI.MassProton*SI.MassNeutron)
+    1.3056254088279212e26
+    
+Convert the result in Gly with SI.LightYear:
+    julia> 1.3056254088279212e26/SI.LightYear
+    
+    
+Other examples of MathPhysicalConstants
 Let's switch to Earth's gravitational acceleration in MKS units.
 
-    julia> PhysicalConstants.MKS.GravAccel
+    julia> MathPhysicalConstants.MKS.GravAccel
     9.80665
 
 Or in CGS units.
@@ -99,8 +109,8 @@ last but not least in International System of Units (SI)
 | `W_s`   |`In vector boson Red. Mass F.M.Sanchez`| -                        | dimensionless  | 157340             | `pure number`   |
 | `Z`     |`Intermediate vector boson Red. Mass`  | -                        | dimensionless  | 178450.0(41)       | `pure number`   |
 | `Z_s`   |`In vector boson Red. Mass F.M.Sanchez`| -                        | dimensionless  | 178452             | `pure number`   |
-| `Π±`    |`Intermediate vector boson Red. Mass`  | -                        | dimensionless  | 273.13203(68)      | `pure number`   |
-| `Π0`    |`Intermediate vector boson Red. Mass`  | -                        | dimensionless  | 264.1426(18)       | `pure number`   |
+| `Π±`    |`Intermediate vector pion Red. Mass`   | -                        | dimensionless  | 273.13203(68)      | `pure number`   |
+| `Π0`    |`Intermediate vector pion Red. Mass`   | -                        | dimensionless  | 264.1426(18)       | `pure number`   |
 
 ## `License`
 -------
