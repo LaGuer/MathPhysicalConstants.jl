@@ -49,9 +49,7 @@ Now let's have a look at [https://en.m.wikipedia.org/wiki/Age_of_the_universe](h
 One converts the result in Gly with SI.GigaLightYear:
 
     julia> 1.3056254088279212e26/SI.GigaLightYear
-    13.800754843601864e10
-    
-    
+    13.800754843601865    
     
 Other examples of MathPhysicalConstants
 Let's switch to Earth's gravitational acceleration in MKS units.
