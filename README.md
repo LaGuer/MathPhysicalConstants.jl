@@ -79,8 +79,8 @@ last but not least in International System of Units (SI)
 | `γ`     | `euler_gamma`                         | -                        | -              | 0.5772156649015329 | `pure number`   |
 | `26SGP` | `26 sporadic group Product`           | exp(841.2869278)         | -              | 2.3241836455143e365| `pure number`   |
 | `HFP`   | `Happy Family product`                | exp(674.5210288)         | -              | 8.7249055755086e292| `pure number`   |
-| `O_M`   | `Monster Group Cardinal`              | -                        | -              | 8.080174248 × 1053 | `pure number`   |
-| `O_B`   | `Baby Monster Group Cardinal`         | -                        | -              | 4.15478148 × 1033  | `pure number`   |
+| `O_M`   | `Monster Group Cardinal`              | -                        | -              | 8.080174248 × 10^53| `pure number`   |
+| `O_B`   | `Baby Monster Group Cardinal`         | -                        | -              | 4.15478148 × 10^33 | `pure number`   |
 | `c`     | `Speed of light in vacuum`            | -                        | -              | 2.99792458e8       | `m.s^-1`        |
 | `ħ`     | `Reduced Planck constant`             | $\hbar=h/2\pi$           | -              | 1.054571800e-34    | `m^2 kg s^-1`   |
 | `G'`    | `constant of gravitation CODATA2019`  | -                        | M^-1L^3T^-2    | 6.67408(31)e-11    | `m^3 kg^-1 s^-2`|
