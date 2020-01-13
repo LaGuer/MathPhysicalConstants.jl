@@ -112,8 +112,8 @@ last but not least in International System of Units (SI)
 | `W_s`   |`In vector boson Red. Mass F.M.Sanchez`| -                        | dimensionless  | 157340             | `pure number`   |
 | `Z`     |`Intermediate vector boson Red. Mass`  | -                        | dimensionless  | 178450.0(41)       | `pure number`   |
 | `Z_s`   |`In vector boson Red. Mass F.M.Sanchez`| -                        | dimensionless  | 178452             | `pure number`   |
-| `Π±`    |`Intermediate vector pion Red. Mass`   | -                        | dimensionless  | 273.13203(68)      | `pure number`   |
-| `Π0`    |`Intermediate vector pion Red. Mass`   | -                        | dimensionless  | 264.1426(18)       | `pure number`   |
+| `Π±`    |`Pion / Pi Meson Reduced Mass`         | -                        | dimensionless  | 273.13203(68)      | `pure number`   |
+| `Π0`    |`Pion / Pi Meson Reduced Mass`         | -                        | dimensionless  | 264.1426(18)       | `pure number`   |
 
 ## `License`
 -------
