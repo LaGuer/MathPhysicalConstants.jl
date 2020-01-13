@@ -79,8 +79,8 @@ last but not least in International System of Units (SI)
 | `π`     | `pi`                                  | -                        | -              | 3.1415926535897932 | `pure number`   |
 | `e`     | `Euler's number`                      | -                        | -              | 2.7182817284590452 | `pure number`   |
 | `γ`     | `euler_gamma`                         | -                        | -              | 0.5772156649015329 | `pure number`   |
-| `26SGP` | `26 sporadic group Product`           | -                        | -              | exp(841.2869278)   | `pure number`   |
-| `HFP`   | `Happy Family product`                | -                        | -              | exp(674.5210288)   | `pure number`   |
+| `26SGP` | `26 sporadic group Product`           | exp(841.2869278)         | -              | 2.3241836455143e365| `pure number`   |
+| `HFP`   | `Happy Family product`                | exp(674.5210288)         | -              | 8.7249055755086e292| `pure number`   |
 | `O_M`   | `Monster Group Cardinal`              | -                        | -              | 8.080174248 × 1053 | `pure number`   |
 | `O_B`   | `Baby Monster Group Cardinal`         | -                        | -              | 4.15478148 × 1033  | `pure number`   |
 | `c`     | `Speed of light in vacuum`            | -                        | -              | 2.99792458e8       | `m.s^-1`        |
