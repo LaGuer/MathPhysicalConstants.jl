@@ -46,10 +46,10 @@ Now let's have a look at [https://en.m.wikipedia.org/wiki/Age_of_the_universe](h
     julia> R3mn=(2*SI.PlanckConstantHbar^2)/(SI.SanchezGravitationalConstant*SI.MassElectron*SI.MassProton*SI.MassNeutron)
     1.3056254088279212e26
     
-One converts the result in Gly with SI.LightYear:
+One converts the result in Gly with SI.GigaLightYear:
 
-    julia> 1.3056254088279212e26/SI.LightYear
-    1.3800754843601864e10
+    julia> 1.3056254088279212e26/SI.GigaLightYear
+    13.800754843601864e10
     
     
     
