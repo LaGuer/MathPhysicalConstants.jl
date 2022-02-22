@@ -33,10 +33,20 @@ Query and retrieve the Planck Constant using the most updated International Syst
     julia> big(MathPhysicalConstants.SI.PlanckConstantH)
     6.62606895999999960651234296395253273824527450725424150396117674176417443843193e-34
     
-Now let's have a look at ƛe ≡ ħ/m_e.c the reduced electron radius formula. Try it with BigFloat and Measurement
+Electron compton wavelength divided by 2pi defines ƛe ≡ ħ/m_e.c the reduced electron radius formula. Try it with BigFloat and Measurement
     
     julia> big(MathPhysicalConstants.SI.PlanckConstantH)/(big(MathPhysicalConstants.SI.MassElectron)*big(MathPhysicalConstants.SI.SpeedOfLight))
     2.42631027637202010003687587191357482878156204816578736228540160944126721996979e-12
+
+Now let's have a look at [https://en.m.wikipedia.org/wiki/Age_of_the_universe](https://en.m.wikipedia.org/wiki/Age_of_the_universe) determined with the following equation: R = 2ħ^2/(G.m_e.m_p.m_n)  as described in [https://fr.wikipedia.org/wiki/Analyse_dimensionnelle#Cosmologie:_Rayon_de_Hubble](https://fr.wikipedia.org/wiki/Analyse_dimensionnelle#Cosmologie:_Rayon_de_Hubble) 
+    
+    julia> R3mn=(2*SI.PlanckConstantHbar^2)/(SI.SanchezGravitationalConstant*SI.MassElectron*SI.MassProton*SI.MassNeutron)
+    1.3056254088279212e26
+    
+One converts the result in Gly with SI.GigaLightYear:
+
+    julia> 1.3056254088279212e26/SI.GigaLightYear
+    13.800754843601865 
 
 Let's switch to Earth's gravitational acceleration in MKS units.
 
